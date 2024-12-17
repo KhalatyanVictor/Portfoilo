@@ -1,0 +1,89 @@
+.headerText{
+    margin-top: 50px;
+    color: #FFFFFF;
+}
+
+.inputButtonDiv{
+    margin-top: 50px;
+}
+
+#inputId{
+    border: 1px solid gray;
+    background: none;
+    color: #FFFFFF;
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.addButton{
+    border: 1px solid gray;
+    background-color: gray;
+    height: 30px;
+    width: 100px;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-left: 20px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+.addButton:hover {
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    height: 30px;
+    width: 100px;
+    color: gray;
+    cursor: pointer;
+    margin-left: 20px;
+    border-radius: 10px;
+    
+}
+
+.list{
+    height: 100%;
+    width: 1010px;
+    border: 1px solid #FFFFFF;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.listItem{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.value{
+    color: #FFFFFF;
+    height: 100%;
+    width: 950px;
+    text-align: left;
+    border-radius: 10px;
+
+    
+}
+
+
+.deleteBtn{
+    height: 100%;
+    width: 50px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    background-color: gray;
+    border: none;
+    transition: all 0.5s ease;
+
+}
+
+.deleteBtn:hover{
+    color: #FFFFFF;
+    background-color: red;
+    cursor: pointer;
+}
+
+.searchInputDiv{
+    margin-top: 50px;
+    margin-right: 119px;
+}

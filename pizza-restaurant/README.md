@@ -1,6 +1,6 @@
 # 🍕 Restaurant Web Project
 
-This project is part of my portfolio, showcasing my skills as I work toward becoming a junior developer. It demonstrates my ability to turn a UI design into a fully functional, responsive web page.
+This project is part of my portfolio, showcasing my skills as I work toward becoming a junior software engineer. It demonstrates my ability to turn a UI design into a fully functional, responsive web page.
 
 ### Design Inspiration 🎨
 The page is based on this design:
