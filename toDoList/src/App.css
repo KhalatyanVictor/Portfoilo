@@ -16,33 +16,10 @@
     border-radius: 10px;
 }
 
-.addButton{
-    border: 1px solid gray;
-    background-color: gray;
-    height: 30px;
-    width: 100px;
-    color: #FFFFFF;
-    cursor: pointer;
-    margin-left: 20px;
-    border-radius: 10px;
-    transition: all 0.5s ease;
-}
-
-.addButton:hover {
-    border: 1px solid #FFFFFF;
-    background-color: #FFFFFF;
-    height: 30px;
-    width: 100px;
-    color: gray;
-    cursor: pointer;
-    margin-left: 20px;
-    border-radius: 10px;
-    
-}
 
 .list{
     height: 100%;
-    width: 1010px;
+    width: 1050px;
     border: 1px solid #FFFFFF;
     margin: auto;
     margin-top: 100px;
@@ -53,16 +30,20 @@
     display: flex;
     justify-content: space-between;
     margin: 0;
+    padding: 10px;
+}
+
+.toDoTitle{
+    height: 100%;
+    width: 950px;
+    border-radius: 10px;
 }
 
 .value{
     color: #FFFFFF;
-    height: 100%;
-    width: 950px;
     text-align: left;
     border-radius: 10px;
-
-    
+    margin-left: 10px;
 }
 
 
@@ -86,4 +67,34 @@
 .searchInputDiv{
     margin-top: 50px;
     margin-right: 119px;
+}
+
+.buttons{
+    height: 100%;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.sharedBtn{
+    border: 1px solid gray;
+    background-color: gray;
+    height: 30px;
+    width: 100px;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-left: 20px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+.sharedBtn:hover {
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    height: 30px;
+    width: 100px;
+    color: gray;
+    cursor: pointer;
+    margin-left: 20px;
+    border-radius: 10px;
+    
 }

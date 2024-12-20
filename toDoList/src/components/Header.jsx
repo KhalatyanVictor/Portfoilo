@@ -1,4 +1,5 @@
 import { useState } from "react";
+import SharedBtn from "./SharedButton";
 
 function Header({ addTodo, searchInput, setSearchInput }) {
     const [input, setInput] = useState("");
@@ -21,7 +22,7 @@ function Header({ addTodo, searchInput, setSearchInput }) {
                     value={input}
                     onChange={(e) => setInput(e.target.value)} 
                 />
-                <button onClick={handleAddClick} className="addButton">Add</button>
+                <SharedBtn onClick={handleAddClick} className="sharedBtn" name={"Add"} />
             </div>
             <div className="searchInputDiv">
                 <input
