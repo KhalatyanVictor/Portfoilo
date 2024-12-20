@@ -8,6 +8,10 @@ This project is part of my portfolio, showcasing my skills as I work toward beco
 - Add and delete tasks.
 - Mark tasks as complete.
 - User-friendly interface for easy task management.
+- **Search** functionality to filter tasks based on input.
+- **All** button to mark all tasks as completed.
+- **Done** button to mark individual tasks as completed.
+- **Undone** button to reset tasks to incomplete.
 
 ---
 
